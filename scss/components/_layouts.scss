@@ -1,0 +1,146 @@
+/*
+ Basic Layout styling for pages
+ ===================================== */
+
+body {
+	font-family: $heading-font;
+	color:  $font-color;
+	font-weight: 200;
+	background-color: $base-body-color;
+}
+
+img {
+	max-width: 100%;
+}
+
+ .container {
+ @include outer-container;
+ padding: rem(40);
+}
+
+
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+	font-family: $heading-font;
+}
+
+
+/*
+Link styles
+-------------------------- */
+a, a:link {
+	color: $font-color;
+}
+
+/*
+List styles
+-------------------------- */
+
+.list-head {
+	opacity: .4;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: rem(12);
+	letter-spacing: rem(2);
+	margin-bottom: rem(20);
+}
+
+.vertical-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+ 	@include clearfix;
+ 	li {
+ 	}
+}
+
+.horizontal-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+ 	@include clearfix;
+	li {
+		display: inline-block;
+		a {
+			position: relative;
+			display: block;
+		}
+	}
+}
+
+// .copy-link {
+// 	display: inline-block;
+// 	padding: 0 rem(5);
+// 	background-color: #e0e0e0;
+// }
+
+.page {
+	overflow: hidden;
+ 	@include clearfix;
+ 	margin-top: rem(50);
+ 	.page-row {
+		@include row();
+ 	}
+}
+.page-title {
+	@include span-columns(3);
+	opacity: .4;
+	h1 {
+		margin: 0;
+		font-weight: 200;
+		font-size: rem(24);
+		letter-spacing: rem(5);
+	}
+}
+.page-hero {
+	@include span-columns(9);
+	margin-right: 0;
+}
+.page-article {
+	padding-left: 25.58941%;
+	font-size: rem(16);
+	p {
+		line-height: 1.8;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+		column-gap: 30px;
+		-moz-column-gap: 30px;
+		-webkit-column-gap: 30px;
+	}
+	&.hero {
+		margin-top: rem(50);
+		p {
+			font-size: rem(20);
+			font-weight: 500;
+			-webkit-column-count: 1;
+			-moz-column-count: 1;
+			column-count: 1;
+			column-gap: 0px;
+			-moz-column-gap: 0px;
+			-webkit-column-gap: 0px;
+		}
+	}
+	.posts {
+		li {
+			padding: rem(30) 0;
+			border-bottom: 1px solid lighten($primary-color, 55%);
+			a {
+				font-size: rem(40);
+			}
+			.date {
+				margin-top: rem(10);
+				opacity: .4;
+			}
+			&:first-of-type {
+				padding-top: 0;
+			}
+			&:last-of-type {
+				border-bottom: none;
+			}
+		}
+	}
+}
+
+.fourth {
+	@include span-columns(3);
+}

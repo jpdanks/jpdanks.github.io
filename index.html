@@ -3,11 +3,35 @@ layout: default
 title: Your New Jekyll Site
 ---
 
-<div id="home">
+<!-- <div id="home">
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-</div>
+</div> -->
+<article class="page">
+	<div class="page-row">
+		<div class="page-title">
+			<h1>About</h1>
+		</div>
+		<div class="page-hero">
+			<img src="http://localhost:4000/img/hero.jpg">
+		</div>
+	</div>
+	<div class="page-article hero">
+		<p>My name is Justin Danks, I am a designer. I have my bachelors in Media Design with a concentration in print & I am currently finishing up my Graduates Degree in Information System Technologies: Internet and Web Design from Wilmington University.
+		</p>
+</article>
+<article class="page">
+	<div class="page-row">
+		<div class="page-title">
+			<h1>Career</h1>
+		</div>
+		<div class="page-article">
+			<p>
+			I work as part of a small development team at <a href="http://isminc.com" class="copy-link">ism</a> for the past year and a half. As part of the team, I lead the User Experience Design, User Interface Design & Web Design. At ism I have had the pleasure of designing the interface for a windows based desktop application, Designing and implementing the User Interface and User Experience for our custom built content management system while implementing a soft redesign on our marketing site. Needless to say, I love what I do and I have a very deep passion for Experience and Interface Design.</p>
+		</div>
+	</div>
+</article>

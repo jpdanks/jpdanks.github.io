@@ -10,37 +10,103 @@
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/style.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
 
     </head>
     <body>
 
         <div class="container">
           <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
+            <header class="navigation">
+              <a href="/">
+                <img src="http://localhost:4000/img/logo.png" class="site-logo">
+                <h1 class="title">
+                  {{ site.name }}
+                  <small class="tagline">Designer</small>
+                </h1>
+                
+              </a>
+              <nav class="menu">
+                <ul class="horizontal-list">
+                  <li>
+                    <a class="extra" href="https://docs.google.com/document/d/1XpYHkqGvUq9YyMh1H9EJG28eY2QONoj4ZGEgSjXKPm4/edit?usp=sharing">Resumé</a>
+                  </li>
+                  <li>
+                    <a class="extra" href="/work.html">Work</a>
+                  </li>
+                  <li>
+                    <a class="extra" href="/blog.html">Blog</a>
+                  </li>
+                </ul>
+              </nav>
+            </header>
      
                 {{ content }}
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
           </div>
         </div> <!-- /container -->
+
+        <footer class="footer">
+          <div class="container">
+            <div class="fourth">
+              <ul class="vertical-list footer-list">
+                <li>
+                  <strong>&copy; Justin Danks</strong>
+                </li>
+              </ul>
+            </div>
+            <div class="fourth">
+              <ul class="vertical-list footer-list">
+                <li class="list-head">
+                  Personal Mail
+                </li>
+                <li>
+                  <a href="mailto:jpdanks@gmail.com">jpdanks@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+            <div class="fourth">
+              <ul class="vertical-list footer-list">
+                <li class="list-head">
+                  Social
+                </li>
+                <li>
+                  <a href="http://twitter.com/justindanks">twitter/justindanks</a>
+                </li>
+                <li>
+                  <a href="http://instagram.com/jpdanks">instagram/jpdanks</a>
+                </li>
+                <li>
+                  <a href="http://jpdanks.tumblr.com">tumblr/jpdanks</a>
+                </li>
+                <li>
+                  <a href="http://rdio.com/people/jpdanks/">rdio/jpdanks</a>
+                </li>
+              </ul>
+            </div>
+            <div class="fourth">
+              <ul class="vertical-list footer-list">
+                <li class="list-head">
+                  Progress 
+                </li>
+                <li>
+                  <a href="http://dribbble.com/jpdanks">dribbble/jpdanks</a>
+                </li>
+                <li>
+                  <a href="http://teamtreehouse.com/jpdanks">treehouse/jpdanks</a>
+                </li>
+                <li>
+                  <a href="http://behance.net/jpdanks">behance/jpdanks</a>
+                </li>
+                <li>
+                  <a href="http://facebook.com/jpdanks">facebook/jpdanks</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
 
     </body>
 </html>

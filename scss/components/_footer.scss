@@ -1,0 +1,25 @@
+/*
+ The Footer across the site
+ ===================================== */
+
+ footer.footer {
+ 	margin-top: rem(50);
+ 	background-color: $footer-color;
+ 	padding: rem(50) 0;
+ 	.footer-list {
+ 		li {
+ 			margin: rem(10) 0;
+ 			a {
+				text-decoration: none;
+				font-size: rem(14);
+				opacity: .6;
+				&:hover {
+					color: $hover-color;
+				}
+ 			}
+ 			strong {
+	 			opacity: .6;
+	 		}
+ 		}
+ 	}
+ }
