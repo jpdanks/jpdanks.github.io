@@ -4,13 +4,13 @@
 
 .grid-items {
   $grid-items-background: $base-body-color;
-  $grid-item-background: desaturate($base-accent-color, 30); 
-  $grid-item-colors: 
-    #0076AD, 
-    #454545, 
+  $grid-item-background: desaturate($base-accent-color, 30);
+  $grid-item-colors:
+    #0076AD,
+    #454545,
     #7BAE5E,
     #73B1D2,
-    #F97676, 
+    #F97676,
     #7FD0CD,
     #D07FAB;
   $grid-item-border-size: 9px;
@@ -20,7 +20,7 @@
   $grid-item-height: 14em;
 
   @include clearfix;
-    
+
   .grid-item {
     @include transition (all 0.2s ease-in-out);
     height: $grid-item-height;
@@ -41,7 +41,7 @@
       @include grid-item-columns($grid-item-columns);
     }
 
-    @for $i from 1 to 8 { 
+    @for $i from 1 to 8 {
 
       &:nth-child(#{$i}) {
         $background-from-list: nth($grid-item-colors, $i);
@@ -84,7 +84,7 @@
     p {
       @include media($medium-screen) {
         max-width: 60%;
-      }  
+      }
     }
   }
 
@@ -96,7 +96,3 @@
     background-size: cover;
   }
 }
-
-
-
-

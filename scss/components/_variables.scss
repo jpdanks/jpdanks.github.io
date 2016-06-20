@@ -2,20 +2,25 @@
  The Variables across the site
  ===================================== */
 
- $base-body-color:			#F3F3F3;
- $base-accent-color:		#ddd;
+ $base-body-color:			#ffffff;
+ $base-accent-color:		#D6D6D6;
 
  $primary-color:			#4D565F;
+ $secondary-color:		#D6D6D6;
  $hover-color:				#689EBD;
 
 
- $font-color:				#4D565F;
- $logo-font:				"Brandon grotesque";
- $heading-font:				'Lato', sans-serif;
- $body-font:				"freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+//Typography
+ $font-color:				#242E37;
+ $heading-font:			"SF UI Display", Helvetica Neue,  sans-serif;
+ $body-font:				"SF UI Text", Helvetica Neue, ;
+ $heading-weight:   400;
+
+
+
+ $opacity-hover:    .3;
 
  $footer-color:				#fff;
 
-
  $medium-screen:			40em;
- $large-screen:				53.75em;
+ $large-screen:				50em;

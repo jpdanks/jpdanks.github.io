@@ -14,8 +14,9 @@ img {
 }
 
  .container {
- @include outer-container;
- padding: rem(40);
+	 padding: rem(40);
+	 max-width: 1200px;
+	 margin: 0 auto;
 }
 
 
@@ -73,22 +74,28 @@ List styles
 // 	background-color: #e0e0e0;
 // }
 
-.page {
+main {
 	overflow: hidden;
  	@include clearfix;
- 	margin-top: rem(50);
+ 	margin-top: rem(100);
  	.page-row {
 		@include row();
  	}
 }
 .page-title {
-	@include span-columns(3);
-	opacity: .4;
+	@include span-columns(12);
 	h1 {
 		margin: 0;
-		font-weight: 200;
-		font-size: rem(24);
-		letter-spacing: rem(5);
+		font-weight: $heading-weight;
+		font-size: rem(36);
+		&:after {
+			content: " ";
+			background: $secondary-color;
+			width: rem(72);
+			display: block;
+			height: rem(2);
+			margin-top: rem(48);
+		}
 	}
 }
 .page-hero {
