@@ -447,14 +447,25 @@ main {
   .page-title h1 {
     margin: 0;
     font-weight: 400;
-    font-size: 2.25rem; }
+    font-size: 2.625rem; }
     .page-title h1:after {
       content: " ";
       background: #D6D6D6;
       width: 4.5rem;
       display: block;
       height: 0.125rem;
-      margin-top: 3rem; }
+      margin-top: 1.5rem; }
+
+.title-desc {
+  margin-top: 3rem;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  font-size: 1.375rem;
+  line-height: 2.25rem; }
+  .title-desc:last-child {
+    margin-right: 0; }
 
 .page-hero {
   float: left;
