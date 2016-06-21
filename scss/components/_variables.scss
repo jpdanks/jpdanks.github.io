@@ -2,25 +2,29 @@
  The Variables across the site
  ===================================== */
 
- $base-body-color:			#ffffff;
- $base-accent-color:		#D6D6D6;
+$base-body-color:			#ffffff;
+$base-accent-color:		#D6D6D6;
+$bright-accent-color: #53A2FF;
+$light-accent-color:  #f6f7f8;
 
- $primary-color:			#4D565F;
- $secondary-color:		#D6D6D6;
- $hover-color:				#689EBD;
+$primary-color:			#4D565F;
+$secondary-color:		#D6D6D6;
+$hover-color:				#689EBD;
+
 
 
 //Typography
- $font-color:				#242E37;
- $heading-font:			"SF UI Display", Helvetica Neue,  sans-serif;
- $body-font:				"SF UI Text", Helvetica Neue, ;
- $heading-weight:   400;
+$font-color:				#242E37;
+$heading-font:			"SF UI Display", Helvetica Neue,  sans-serif;
+$body-font:				  "SF UI Text", Helvetica Neue, ;
+$monospace-font:		"Andale Mono", monospace-font;
+$heading-weight:    500;
 
 
 
- $opacity-hover:    .3;
+$opacity-hover:    .3;
 
- $footer-color:				#fff;
+$footer-color:				$light-accent-color;
 
- $medium-screen:			40em;
- $large-screen:				50em;
+$medium-screen:			40em;
+$large-screen:				50em;

@@ -2,16 +2,17 @@
  The Header across the site
  ===================================== */
 
- header.navigation {
+ .navigation {
  	padding: 0;
  	overflow: hidden;
  	@include clearfix;
  	a {
  		text-decoration: none;
 	}
-	nav.menu {
+	.menu {
 		@include span-columns(12);
 		float: right;
+    font-size: rem(22);
 		text-align: right;
 		font-family: $heading-font;
 		li a {
