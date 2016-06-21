@@ -87,16 +87,22 @@ main {
 	h1 {
 		margin: 0;
 		font-weight: $heading-weight;
-		font-size: rem(36);
+		font-size: rem(42);
 		&:after {
 			content: " ";
 			background: $secondary-color;
 			width: rem(72);
 			display: block;
 			height: rem(2);
-			margin-top: rem(48);
+			margin-top: rem(24);
 		}
 	}
+}
+.title-desc {
+	margin-top: rem(48);
+	@include span-columns(9);
+	font-size: rem(22);
+	line-height: rem(36);
 }
 .page-hero {
 	@include span-columns(9);
