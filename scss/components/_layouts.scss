@@ -29,11 +29,15 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
 }
 .grid-item {
 	@include span-columns(6);
+	margin-bottom: rem(48);
 	.grid-image {
 		height: rem(400);
 		width: 100%;
 		background: $light-accent-color;
 		margin-bottom: rem(24);
+	}
+	&:hover .grid-image {
+		box-shadow: 0 0 25px rgba(0,0,0,.125);
 	}
 }
 
@@ -91,23 +95,24 @@ Typography
 -------------------------- */
 
 p {
+	margin:0;
 	padding-top: rem(48);
 	@include span-columns(9);
 	font-size: rem(22);
-	line-height: rem(32);
+	line-height: rem(38);
 }
 
 h1.page-title {
 	margin: 0;
 	font-weight: $heading-weight;
-	font-size: rem(42);
+	font-size: rem(60);
 	&:after {
 		content: " ";
 		background: $secondary-color;
 		width: rem(72);
 		display: block;
 		height: rem(2);
-		margin-top: rem(24);
+		margin-top: rem(12);
 	}
 }
 
@@ -121,7 +126,7 @@ h2.page-title {
 		width: rem(72);
 		display: block;
 		height: rem(2);
-		margin-top: rem(24);
+		margin-top: rem(12);
 	}
 }
 

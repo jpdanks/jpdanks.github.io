@@ -395,7 +395,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
+  width: 48.82117%;
+  margin-bottom: 3rem; }
   .grid-item:last-child {
     margin-right: 0; }
   .grid-item .grid-image {
@@ -403,6 +404,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     width: 100%;
     background: #f6f7f8;
     margin-bottom: 1.5rem; }
+  .grid-item:hover .grid-image {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.125); }
 
 /*
 Link styles
@@ -455,27 +458,28 @@ List styles
 Typography
 -------------------------- */
 p {
+  margin: 0;
   padding-top: 3rem;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 74.41059%;
   font-size: 1.375rem;
-  line-height: 2rem; }
+  line-height: 2.375rem; }
   p:last-child {
     margin-right: 0; }
 
 h1.page-title {
   margin: 0;
   font-weight: 500;
-  font-size: 2.625rem; }
+  font-size: 3.75rem; }
   h1.page-title:after {
     content: " ";
-    background: #D6D6D6;
+    background: #419BF9;
     width: 4.5rem;
     display: block;
     height: 0.125rem;
-    margin-top: 1.5rem; }
+    margin-top: 0.75rem; }
 
 h2.page-title {
   margin: 0;
@@ -483,11 +487,11 @@ h2.page-title {
   font-size: 1.875rem; }
   h2.page-title:after {
     content: " ";
-    background: #D6D6D6;
+    background: #419BF9;
     width: 4.5rem;
     display: block;
     height: 0.125rem;
-    margin-top: 1.5rem; }
+    margin-top: 0.75rem; }
 
 .project-name {
   font-family: "Andale Mono", monospace-font; }
@@ -499,7 +503,7 @@ h2.page-title {
   opacity: .6; }
 
 /*
- The Header across the site
+ Navigation
  ===================================== */
 .navigation {
   padding: 0;
@@ -516,18 +520,14 @@ h2.page-title {
     margin-right: 2.35765%;
     width: 100%;
     float: right;
-    font-size: 1.375rem;
-    text-align: right;
+    font-size: 1.125rem;
     font-family: "SF UI Display", Helvetica Neue, sans-serif; }
     .navigation .menu:last-child {
       margin-right: 0; }
     .navigation .menu li a {
-      padding: 0.9375rem 0.3125rem;
-      margin: 0 0.625rem;
-      opacity: 0.3;
-      font-weight: 500; }
-      .navigation .menu li a:hover {
-        opacity: 1; }
+      padding: 0.75rem 0 0 0;
+      margin: 0 1.5rem 0 0;
+      font-weight: 400; }
 
 /*
  The Footer across the site
@@ -542,7 +542,7 @@ footer {
  Section styles
  ===================================== */
 .headline {
-  padding: 3rem 0 4.5rem 0; }
+  padding: 3rem 0 3rem 0; }
 
 .latest {
   background-color: #f6f7f8;
