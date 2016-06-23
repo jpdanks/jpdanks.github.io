@@ -5,9 +5,9 @@ company: "Expedia, Inc."
 department: "Egencia Business Travel"
 role: "Lead Product Designer, Front-End Specialist"
 team: "Oslo, Norawy & Paris, France"
-type: "Product Design"
+type: "Product Design, Web App"
 goal: "Create an efficient flight shopping tool to be used by medical professionals."
-date:   2016-07-21
+date:   2016-01-10
 categories: design
 headline: "Creating a flight shopping tool focusing on efficiency for medical professionals."
 ---

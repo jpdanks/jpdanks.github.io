@@ -1,2 +1,3 @@
 name: Justin Danks
-highlighter: pygments 
+highlighter: pygments
+future: true
