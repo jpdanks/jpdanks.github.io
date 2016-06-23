@@ -2,10 +2,15 @@
  The Variables across the site
  ===================================== */
 
-$base-body-color:			#ffffff;
+
+$black:             #090D10;
+$white:             #FFFFFF;
+
+$base-body-color:			$white;
 $base-accent-color:		#D6D6D6;
-$bright-accent-color: #419BF9;
+$bright-accent-color: #62B4E1;
 $light-accent-color:  #f6f7f8;
+
 
 $primary-color:			#4D565F;
 $secondary-color:		$bright-accent-color;

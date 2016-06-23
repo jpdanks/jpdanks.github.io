@@ -3,9 +3,59 @@
  ===================================== */
 
 .headline {
-  padding: rem(48) 0 rem(48) 0;
+  padding: rem(48) 0;
 }
  .latest {
   background-color: $footer-color;
   padding: rem(48) 0 rem(60) 0;
+}
+
+.project-summary {
+  padding: rem(48) 0 rem(144) 0;
+  margin-bottom: rem(36);
+  background-color: $black;
+  color: $white;
+}
+
+.cover {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.ghost {
+  font-size: 0;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  &:before, .ghost__child {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &:before {
+    content: "";
+    height: 100%;
+    margin-left: -1px;
+    width: 1px;
+  }
+}
+.cover-content {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 600px;
+}
+.page-background {
+  background-color: $secondary-color;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: $white;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }

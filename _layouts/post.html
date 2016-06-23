@@ -1,11 +1,46 @@
 ---
 layout: default
 ---
-<article>
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div id="post">
-{{ content }}
+<nav class="navigation">
+  <div class="menu">
+    <ul class="horizontal-list">
+      <li>
+        <a class="extra" href="/index.html">Justin Danks</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="cover">
+<header class="page-background"
+{% if page.bgimage %}style="background-image: url({{ page.bgimage }})"
+{% endif %}>
+  <div class="ghost">
+    <div class="cover-content">
+      <p class="headline-goal">{{ page.headline }}</p>
+    </div>
+  </div>
+</header>
 </div>
+<article>
+  <div class="project-summary">
+    <div class="container">
+      <div class="row">
+        <h1>{{ page.date | date: '%Y' }} –{{ page.project }}</h1>
+        <div class="mono-type hr-space-lg">
+          <div>{{ page.company }} – {{ page.department }}<br/>{{ page.type }}</div>
+        </div>
+        <div class="mono-type">
+          <div>Role: {{ page.role }}<br/>
+          Team: {{ page.team }}<br/>
+          Goal: {{ page.goal }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      {{ content }}
+    </div>
+  </div>
 </article>

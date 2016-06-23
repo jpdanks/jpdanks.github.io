@@ -3,19 +3,11 @@ layout: default
 title: Justin Danks – Product Designer
 ---
 
-<!-- <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div> -->
 <div class="headline">
 	<div class="container">
 		<div class="row">
 			<h1 class="page-title">Justin Danks</h1>
-			<p>
+			<p class="headline">
 				I am a Senior Product Designer and Interaction Lead at Expedia, inc.
 				I have my Graduates Degree in Information System Technologies: Internet
 				and Web Design from Wilmington University and a passion for learning.
@@ -25,29 +17,14 @@ title: Justin Danks – Product Designer
 </div>
 <div class="work">
 	<div class="container">
-		<div class="row">
-		  <a href="" class="grid-item">
-				<div class="grid-image"></div>
-				<div class="project-name">Egencia mobile app</div>
-				<div class="company-name">Expedia, Inc.</div>
-		  </a>
-		  <a href="" class="grid-item">
-				<div class="grid-image"></div>
-				<div class="project-name">Norwegian flight shopping</div>
-				<div class="company-name">Expedia, Inc.</div>
-		  </a>
-		</div>
-		<div class="row">
-		  <a href="" class="grid-item">
-				<div class="grid-image"></div>
-				<div class="project-name">Responsive flight shopping</div>
-				<div class="company-name">Expedia, Inc.</div>
-		  </a>
-		  <a href="" class="grid-item">
-				<div class="grid-image"></div>
-				<div class="project-name">Ground transportation</div>
-				<div class="company-name">Expedia, Inc.</div>
-		  </a>
+		<div>
+			{% for post in site.posts %}
+			  <a href="{{ post.url }}" class="grid-item">
+					<div class="grid-image"></div>
+					<div class="mono-type">{{ post.project }}</div>
+					<div class="company-name">{{ post.company }} –{{ post.date |  date: '%B %Y' }}</div>
+			  </a>
+			{% endfor %}
 		</div>
 	</div>
 </div>
@@ -58,19 +35,19 @@ title: Justin Danks – Product Designer
 			<ul class="latest-list">
 				<li>
 					<a href="">
-						<div class="project-name">Norwegian flight shopping</div>
+						<div class="mono-type">Norwegian flight shopping</div>
 						<div class="company-name">Expedia, Inc.</div>
 					</a>
 				</li>
 				<li>
 					<a href="">
-						<div class="project-name">Responsive flight shopping</div>
+						<div class="mono-type">Responsive flight shopping</div>
 						<div class="company-name">Expedia, Inc.</div>
 					</a>
 				</li>
 				<li>
 					<a href="">
-						<div class="project-name">Multipule line of business checkout</div>
+						<div class="mono-type">Multipule line of business checkout</div>
 						<div class="company-name">Expedia, Inc.</div>
 					</a>
 				</li>

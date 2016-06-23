@@ -1,8 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-05-13 13:38:40
-categories: jekyll update
+project:  "Medical patient travel"
+company: "Expedia, Inc."
+department: "Egencia Business Travel"
+role: "Lead Product Designer, Front-End Specialist"
+team: "Oslo, Norawy & Paris, France"
+type: "Product Design"
+goal: "Create an efficient flight shopping tool to be used by medical professionals."
+date:   2016-07-21
+categories: design
+headline: "Creating a flight shopping tool focusing on efficiency for medical professionals."
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
