@@ -1510,6 +1510,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/bower_components\/neat\/test\/media.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/neat\/test\/media.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/neat\/test\/media.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1525,6 +1534,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/bower_components\/neat\/test\/new-breakpoint.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/neat\/test\/new-breakpoint.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/bower_components\/neat\/test\/new-breakpoint.scss": {
 		"createSourceMap": 0,
@@ -1542,6 +1560,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/bower_components\/neat\/test\/omega.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/neat\/test\/omega.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/neat\/test\/omega.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1557,6 +1584,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/bower_components\/neat\/test\/outer-container.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/neat\/test\/outer-container.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/bower_components\/neat\/test\/outer-container.scss": {
 		"createSourceMap": 0,
@@ -1574,6 +1610,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/bower_components\/neat\/test\/pad.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/neat\/test\/pad.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/neat\/test\/pad.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1589,6 +1634,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/bower_components\/neat\/test\/row.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/neat\/test\/row.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/bower_components\/neat\/test\/row.scss": {
 		"createSourceMap": 0,
@@ -1606,6 +1660,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/bower_components\/neat\/test\/shift.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/neat\/test\/shift.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/neat\/test\/shift.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1621,6 +1684,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/bower_components\/neat\/test\/span-columns.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/neat\/test\/span-columns.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/bower_components\/neat\/test\/span-columns.scss": {
 		"createSourceMap": 0,
@@ -1665,57 +1737,112 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/cfriverfront1.png": {
+	"\/img\/Air-Details-Bags-Mobile.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 23709,
-		"inputAbbreviatedPath": "\/img\/cfriverfront1.png",
-		"outputAbbreviatedPath": "\/img\/cfriverfront1.png",
+		"initialSize": 164980,
+		"inputAbbreviatedPath": "\/img\/Air-Details-Bags-Mobile.png",
+		"outputAbbreviatedPath": "\/img\/Air-Details-Bags-Mobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/fast.png": {
+	"\/img\/Air-Details-Bags.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3359,
-		"inputAbbreviatedPath": "\/img\/fast.png",
-		"outputAbbreviatedPath": "\/img\/fast.png",
+		"initialSize": 200952,
+		"inputAbbreviatedPath": "\/img\/Air-Details-Bags.png",
+		"outputAbbreviatedPath": "\/img\/Air-Details-Bags.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hero.jpg": {
-		"fileType": 16384,
+	"\/img\/Air-Details-Mobile.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.9646e+06,
-		"inputAbbreviatedPath": "\/img\/hero.jpg",
-		"outputAbbreviatedPath": "\/img\/hero.jpg",
+		"initialSize": 376843,
+		"inputAbbreviatedPath": "\/img\/Air-Details-Mobile.png",
+		"outputAbbreviatedPath": "\/img\/Air-Details-Mobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/ism.png": {
+	"\/img\/Air-Details.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2240,
-		"inputAbbreviatedPath": "\/img\/ism.png",
-		"outputAbbreviatedPath": "\/img\/ism.png",
+		"initialSize": 194129,
+		"inputAbbreviatedPath": "\/img\/Air-Details.png",
+		"outputAbbreviatedPath": "\/img\/Air-Details.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo.png": {
+	"\/img\/Air-Fares.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6155,
-		"inputAbbreviatedPath": "\/img\/logo.png",
-		"outputAbbreviatedPath": "\/img\/logo.png",
+		"initialSize": 177856,
+		"inputAbbreviatedPath": "\/img\/Air-Fares.png",
+		"outputAbbreviatedPath": "\/img\/Air-Fares.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Air-Results-Desktop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 243622,
+		"inputAbbreviatedPath": "\/img\/Air-Results-Desktop.png",
+		"outputAbbreviatedPath": "\/img\/Air-Results-Desktop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Air-Shopping-Iteration.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165912,
+		"inputAbbreviatedPath": "\/img\/Air-Shopping-Iteration.png",
+		"outputAbbreviatedPath": "\/img\/Air-Shopping-Iteration.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Air-Shopping-Mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 210457,
+		"inputAbbreviatedPath": "\/img\/Air-Shopping-Mobile.png",
+		"outputAbbreviatedPath": "\/img\/Air-Shopping-Mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Air-Shopping-Return.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 253805,
+		"inputAbbreviatedPath": "\/img\/Air-Shopping-Return.png",
+		"outputAbbreviatedPath": "\/img\/Air-Shopping-Return.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Air-Shopping.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 243675,
+		"inputAbbreviatedPath": "\/img\/Air-Shopping.png",
+		"outputAbbreviatedPath": "\/img\/Air-Shopping.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1845,6 +1972,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/scss\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/scss\/style.scss": {
 		"createSourceMap": 0,
