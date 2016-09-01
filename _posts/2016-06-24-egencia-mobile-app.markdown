@@ -12,9 +12,22 @@ categories: design
 headline: "Redefine the mobile app to solidify and enhance our branding within the product."
 ---
 
-
+<!-- Section for Project Briefing -->
 ##Project Brief
 
-I am a Senior  Designer and Interaction Lead at Expedia, inc. I have my Graduates Degree in Information System Technologies: Internet and Web Design from Wilmington University and a passion for learning. I am a Senior Product Designer and Interaction Lead at Expedia, inc. I have my Graduates Degree in Information System Technologies: Internet and Web Design from Wilmington University and a passion for learning.
 
-I am a Senior Product Designer and Interaction Lead at Expedia, inc. I have my Graduates Degree in Information System Technologies: Internet and Web Design from Wilmington University and a passion for learning. I am a Senior Product Designer and Interaction Lead at Expedia, inc. I have my Graduates Degree in Information System Technologies: Internet and Web Design from Wilmington University and a passion for learning.
+<!-- Section for Low Fidelity ie. Sketches -->
+<section>
+</section>
+
+<!-- Section for Modeling ie. showing layout blocks -->
+<section>
+</section>
+
+<!-- Section for High Fidelity ie. the fist version of the product -->
+<section>
+</section>
+
+<!-- Section for User feedback and updates ie. version 2 of the product -->
+<section>
+</section>
