@@ -18,14 +18,14 @@
 }
 
 .cover {
-  height: 100vh;
+  height: $project-header-height;
   width: 100%;
   position: relative;
 }
 
 .ghost {
   font-size: 0;
-  height: 100vh;
+  height: $project-header-height;
   left: 0;
   position: absolute;
   top: 0;
@@ -53,7 +53,7 @@
   background-size: cover;
   background-position: center;
   color: $white;
-  height: 100vh;
+  height: $project-header-height;
   left: 0;
   position: absolute;
   top: 0;
