@@ -9,7 +9,7 @@ var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
-var sassSrc = 'scss/**/*.scss';
+var sassSrc = './_scss/**/*.scss';
 var sassDest = '_site/css';
 
 /**
