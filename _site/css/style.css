@@ -1,8 +1,7 @@
-html {
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
@@ -394,8 +393,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     display: table; }
 
 .grid-item {
-  float: left;
   display: block;
+  float: left;
   margin-right: 2.35765%;
   width: 48.82117%;
   margin-bottom: 3rem; }
@@ -521,6 +520,7 @@ h2.page-title {
 article h1 {
   font-size: 2.25rem;
   font-weight: 400; }
+
 article h2 {
   font-size: 1.875rem;
   font-weight: 400; }
@@ -576,13 +576,13 @@ footer {
   color: #FFFFFF; }
 
 .cover {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   position: relative; }
 
 .ghost {
   font-size: 0;
-  height: 100vh;
+  height: 80vh;
   left: 0;
   position: absolute;
   top: 0;
@@ -608,7 +608,7 @@ footer {
   background-size: cover;
   background-position: center;
   color: #FFFFFF;
-  height: 100vh;
+  height: 80vh;
   left: 0;
   position: absolute;
   top: 0;

@@ -1,5 +1,6 @@
-
-@import "bourbon", "neat";
+@import
+	"vender/bourbon/bourbon",
+	"vender/neat/neat";
 
 @import
 	"components/normalize",
@@ -8,4 +9,3 @@
 	"components/header",
 	"components/footer",
 	"components/sections";
- 
